@@ -12,29 +12,71 @@
 </head>
 <body>
   <style>
-    body {
-    font-size:15px;
-    font-family: "Outfit";
-    color:hsl(160, 11, 139);
-    background: hsl(142, 108, 213);
+    /* * {
+      outline: solid 2px orange;
+    } */
+      body {
+      font-size:15px;
+      font-family: "Outfit";
+      background: rgb(213, 225, 239);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 40px;
+      }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 320px;
+      height: 470px; 
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+      padding-top: 10px;
+    }
+    
+    img {
+      max-width: 290px;
+      border-radius: 10px;
     }
 
-    @media screen and (max-width: 1440px) {
-      
+    .card-text {
+      max-width: 260px;
+      color:rgb(39, 50, 72)
     }
 
-    @media screen and (max-width: 375px) {
-      
+    .card-text p {
+      color: rgb(170, 170, 170);
     }
+
+    .attribution {
+      padding: 20px;
+    }
+
+    @media screen and (min-width: 1440px) {
+      body {
+        margin:80px;
+      }
+    }
+
 
 
   </style>
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
+  <div class="card">
+    <div class="qr-img">
+      <img src="/images/image-qr-code.png" />
+    </div>
+    <div class="card-text">
+      <h2>Improve your front-end skills by building projects</h2>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </div>
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.<br> 
     Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
