@@ -20,8 +20,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: https://github.com/er1927/fem-qr
-- Live Site URL: https://er1927.github.io/fem-qr/
+- Solution URL: [Repo site](https://github.com/er1927/fem-qr)
+- Live Site URL: [Live site](https://er1927.github.io/fem-qr/)
 
 ## My process
 
